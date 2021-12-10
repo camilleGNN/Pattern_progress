@@ -1,0 +1,72 @@
+            .site-title{
+                font-family:  avenir;
+                margin-left: 0.5%;
+                font-size: 20pt;
+                
+
+            }
+           
+
+           .image__toolbar{
+            background: transparent;
+            position: fixed;
+            bottom: 0 ;
+            top: 0;
+            z-index:  1000;
+            margin-top: 0%;
+           }
+
+            .dropbtn {
+            background-color: lightgrey;
+            color: black;
+            padding: 10px;
+            font-size: 16px;
+
+            border: none;
+            cursor: pointer;
+            }
+  
+            .dropdown {
+            position: relative;
+            display: inline-block;
+            }
+  
+            .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 
+                0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            }
+  
+            .dropdown-content a {
+            color: black;
+            padding: 10px 16px;
+            text-decoration: none;
+            display: block;
+            }
+  
+            .dropdown-content a:hover {
+            background-color: #f5f5f5;
+            }
+  
+            .dropdown:hover .dropdown-content {
+            display: block;
+            }
+  
+            .dropdown:hover .dropbtn {
+            background-color: transparent;
+            }
+
+            .layer{
+                width: 100vw;
+                height: 100vh;
+                position: fixed;
+                mix-blend-mode: : multiply;
+            }
+
+
+
+            

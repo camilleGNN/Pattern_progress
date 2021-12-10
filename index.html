@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/generator.css">
+    	<style>
+
+        </style>
+    </head>
+  <body>
+
+
+<div class ="site-title">
+    <p> Victorian Floral Pattern Generator </p>
+</div>
+
+
+<!--------------------- (add image into dropdown list html solution from https://www.geeksforgeeks.org/how-to-add-image-into-dropdown-list-for-each-items,  mixed with drop down menu solution from w3schools--------------------------------------------------------------------------------->
+
+
+<div class="whole-drop-down-menu">
+  <div class="dropdown">
+    <button class="dropbtn">Flowers <i class="fa fa-caret-down"></i>
+    </button>
+
+    <div class="dropdown-content">
+      <a href="#">
+        <img class="paper" src="img/flower_1.png" width="250" height="100">
+      </a>
+      <a href="#">
+        <img class="paper" src="img/flower_2.png" width="250" height="100">
+      </a>
+      <a href="#">
+        <img class="paper" src="img/flower_3.png" width="250" height="100">
+      </a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Garlands <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">
+        <img class="paper" src="img/garland_1.png" width="150" height="150">
+      </a>
+      <a href="#">
+        <img class="paper" src="img/garland_2.png" width="150" height="150">
+      </a>
+      <a href="#">
+        <img class="paper" src="img/garland_3.png" width="150" height="150">
+      </a>
+    </div>
+  </div>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Fruit <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">
+        <img class="paper" src="img/fruit_1.png" width="150" height="150">
+      </a>
+      <a href="#">
+        <img class="paper" src="img/fruit_2.png" width="150" height="150">
+      </a>
+      <a href="#">
+        <img class="paper" src="img/fruit_3.png" width="150" height="150">
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<div id="image__toolbar"></div>
+
+<!------------------  option jquery ----------------------------------------------------------------------------------------------->
+
+    <div class= "paper" data-image="img/flower_1.png"></div>
+
+    <div class= "paper" data-image="img/flower_2.png"></div>
+
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+
+      <script src="js/script.js"></script>
+
+
+
+  </body>
+</html>
